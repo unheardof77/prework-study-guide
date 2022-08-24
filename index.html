@@ -12,6 +12,7 @@
     <header id="header">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
 
     <main>
@@ -40,13 +41,29 @@
           
           <li>git status:  checks what branch we are currently on</li>
           <li>git checkout -b branch-name:  creates a new branch and switches to it</li>
+          <li>git flow is git add -A, then git commit -m "", then git pull origin main, then git push origin feature/</li>
         </ul>
       </section>
 
       <section class="card" id="javascript-section">
         <h2>Javascript</h2>
         <ul>
-          <li>Enter your Javascript notes here</li>
+          <li>make comments in Javascript by doing "/*" then "*/". Or if on a single line you can put "//" in front of it.</li>
+          <h3>Variables</h3>
+          <li>Javascript is case sensitive when naming variables.</li>
+          <li>To signify that the value is a string, enclose it in 'single' quote marks.</li>
+          <li>Numbers don't have quotes around them.</li>
+          <li>Boolean is a True/False value.True and false are special keywords that don't need quote marks.</li>
+          <li>Array is a structure that allows you to store multiple values in a single reference.  it looks like this, "let myVariable = ['bob',10];", refer to each member as "myVariable[0]", then "myVariable[1]" etc.</li>
+          <li>Everything in Javascript is an object and can be stored in a variable.</li>
+          
+          <h3>Operators</h3>
+          <li>"+" adds two numbers together or combines two strings.</li>
+          <li>"-,*,/" do what you would expect them to do in basic math.</li>
+          <li>"=" assigns a value to a variable.</li>
+          <li>"===" three equal signs makes a strict equality, this performs a test to see if two values are equal.  It returns a boolean or true/false result.</li>
+          <li>"Not" is represented by "!" this returns the logically opposite value of what it precedes, for example, it turns true into false.</li>
+          <li>"Does-not-equal" is represented by "!==" this test if things are not equal for example this code, "let myVariable = 3; myVariable !== 3;" returns false because myVariable IS equal to 3.</li>
         </ul>
       </section>
       
@@ -55,5 +72,9 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <button>Change user</button>
+    
+    <script src="./scripts/main.js"></script>
+
   </body>
 </html>
