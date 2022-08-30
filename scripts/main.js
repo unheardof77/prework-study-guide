@@ -15,7 +15,7 @@ let myHeading = document.querySelector('h1');
 
 
 function setUserName() {
-    const myName = prompt('Please enter your name.');
+    const myName = prompt('Please enter your username.');
     localStorage.setItem('name', myName);
     myHeading.textContent = `Coding is cool, ${myName}`;
   }
@@ -24,7 +24,7 @@ function setUserName() {
     setUserName();
   } else {
     const storedName = localStorage.getItem('name');
-    myHeading.textContent = `Mozilla is cool, ${storedName}`;
+    myHeading.textContent = `Coding is cool, ${storedName}`;
   }
 
   myButton.onclick = () => {
